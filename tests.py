@@ -86,4 +86,4 @@ class TestBooksCollector:
         collector.add_new_book('А эту не люблю')
         collector.add_book_in_favorites('Люблю эту книгу')
         collector.add_book_in_favorites('И эту книгу люблю')
-        assert collector.favorites == ['Люблю эту книгу', 'И эту книгу люблю']
+        assert collector.get_list_of_favorites_books() == ['Люблю эту книгу', 'И эту книгу люблю']
