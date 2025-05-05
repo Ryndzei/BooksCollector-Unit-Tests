@@ -1,4 +1,4 @@
-# BooksCollector Unit Tests
+# Class Unit Tests
 Юнит тестирование класса [BooksCollector](main.py)
 
 Класс был полностью покрыт тестами
